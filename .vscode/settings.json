@@ -1,0 +1,12 @@
+{
+	// The editor checks with TypeScript 7, as rbxtsc builds: the "TypeScript 7" extension
+	// (TypeScriptTeam.native-preview) with the project's own typescript package. The built-in
+	// TypeScript 5 service would misread tsconfig.json and the 3-parameter iterables.
+	"js/ts.experimental.useTsgo": true,
+	"js/ts.tsdk.path": "./node_modules/typescript",
+	"files.eol": "\n",
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true
+	}
+}

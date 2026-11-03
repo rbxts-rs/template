@@ -1,0 +1,8 @@
+# The Rust version this compiler package builds with. rustup reads this file for the cargo commands run in this
+# folder, the launcher's builds included, and installs that version by itself the first time. It is the version the
+# rbxts-rs release that rbxts_cli's tag in Cargo.toml names was built and tested with: when you move to another
+# release, take that release's rust-toolchain.toml with it (README.md, "Changing versions"); don't change it on its own.
+[toolchain]
+channel = "1.99.1"
+components = ["clippy", "rustfmt"]
+profile = "minimal"

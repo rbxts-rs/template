@@ -1,0 +1,35 @@
+# This project's own rbxtsc: rbxts-rs's command line with the project's plugins compiled in (none here). The launcher
+# (`node compiler/rbxtsc.mjs`) runs it, after downloading the matching prebuilt binary or building it; README.md.
+#
+# Exact versions only: dependencies name a git tag (or rev) or an `=` version, never a branch or a range, and
+# Cargo.lock is committed. Any change to this file, Cargo.lock, rust-toolchain.toml, .cargo/config.toml or src/ changes
+# the config hash, and a changed config is built with Rust instead of downloaded (README.md, "The config hash").
+[package]
+name = "rbxtsc"
+version = "0.0.0"
+edition = "2024"
+rust-version = "1.99"
+publish = false
+
+# A workspace of its own, so this package never joins a Cargo workspace above it.
+[workspace]
+
+[[bin]]
+name = "rbxtsc"
+path = "src/main.rs"
+
+[dependencies]
+rbxts_cli = { git = "https://github.com/rbxts-rs/rbxts-rs", tag = "v0.1.1" }
+# The allocator rbxts-rs's own rbxtsc uses (src/main.rs).
+mimalloc-safe = { version = "=0.1.68", features = ["v3", "no_thp"] }
+# A plugin, pinned to a tag that targets the same rbxts-rs tag as rbxts_cli above:
+# my_plugin = { git = "https://github.com/me/my-plugin", tag = "v1.0.0" }
+
+# Thin LTO over 16 codegen units: a clean build in about half the time of fat LTO with one unit (2.5 min against
+# 5.3 min on a desktop PC), for a binary within a few percent of its speed (rbxts-rs README, "A project's own
+# compiler"). The prebuilt binaries of a release are built with this profile too.
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 16
+panic = "unwind"

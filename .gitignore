@@ -1,0 +1,16 @@
+/node_modules
+
+# Build output: rbxtsc writes out/ and include/. Every build recreates them.
+/out
+/include
+*.tsbuildinfo
+
+# The project's compiler binary: compiler/rbxtsc.mjs downloads or builds it (compiler/.gitignore has it too).
+/compiler/bin/
+/compiler/target/
+
+# Place files at the root, such as the place.rbxl that `bun run place` builds. Studio's lock files never are.
+/*.rbxl
+/*.rbxlx
+*.rbxl.lock
+*.rbxlx.lock

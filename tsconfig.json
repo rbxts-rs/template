@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		// required
+		"allowSyntheticDefaultImports": true,
+		"jsx": "react",
+		"jsxFactory": "React.createElement",
+		"jsxFragmentFactory": "React.Fragment",
+		"module": "preserve",
+		"moduleResolution": "bundler",
+		"noLib": true,
+		"resolveJsonModule": true,
+		"experimentalDecorators": true,
+		"forceConsistentCasingInFileNames": true,
+		"moduleDetection": "force",
+		"strict": true,
+		"target": "ESNext",
+		"typeRoots": ["node_modules/@rbxts"],
+		// TypeScript 7 loads no type-root package by itself: these are the globals roblox-ts needs.
+		"types": ["types", "compiler-types"],
+
+		// configurable
+		"rootDir": "src",
+		"outDir": "out",
+		// Imports from src/, such as "shared/module" (what "baseUrl": "src" did in TypeScript 5).
+		"paths": { "*": ["./src/*"] }
+	}
+}

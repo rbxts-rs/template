@@ -1,0 +1,8 @@
+# Cargo's settings for this package: cargo reads this file for the commands run in this folder, the launcher's builds
+# included. Part of the config hash, like Cargo.toml (README.md, "The config hash").
+
+# Reproducible Windows builds: MSVC's linker otherwise writes the link time into the binary and gives its debug
+# information a new id each time, so two builds of the same config differ. With /Brepro both are hashes of the
+# content. (A RUSTFLAGS environment variable replaces these flags.)
+[target.'cfg(all(windows, target_env = "msvc"))']
+rustflags = ["-C", "link-arg=/Brepro"]

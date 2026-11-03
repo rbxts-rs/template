@@ -1,0 +1,7 @@
+{
+	"recommendations": [
+		"TypeScriptTeam.native-preview",
+		"evaera.vscode-rojo",
+		"esbenp.prettier-vscode"
+	]
+}

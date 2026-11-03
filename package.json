@@ -1,0 +1,23 @@
+{
+	"name": "rbxts-rs-template",
+	"version": "0.1.0",
+	"private": true,
+	"description": "A minimal roblox-ts game on rbxts-rs (TypeScript 7), with Rojo.",
+	"scripts": {
+		"build": "node compiler/rbxtsc.mjs build",
+		"watch": "node compiler/rbxtsc.mjs -w",
+		"typecheck": "tsc --noEmit -p . --skipLibCheck",
+		"serve": "rojo serve",
+		"place": "rojo build -o place.rbxl",
+		"format": "prettier --write src"
+	},
+	"dependencies": {
+		"@rbxts/services": "1.6.0"
+	},
+	"devDependencies": {
+		"@rbxts/compiler-types": "https://github.com/rbxts-rs/compiler-types/releases/download/v3.0.0-types.1-ts7.0/rbxts-compiler-types-3.0.0-types.1-ts7.0.tgz",
+		"@rbxts/types": "1.0.960",
+		"prettier": "3.9.10",
+		"typescript": "7.0.2"
+	}
+}
