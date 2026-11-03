@@ -1,11 +1,11 @@
 {
 	"bin": "rbxtsc",
-	"version": "0.1.1",
-	"config": "5a04b055bc5c812fb2a6c6ec9a8442296adeeab27b0ba4b00309213675fca511",
+	"version": "0.1.2",
+	"config": "02ca956a086de8704b98aea6abe31b000b4e6d80c6fd5ea883ab28fb98d907b0",
 	"binaries": {
 		"x86_64-pc-windows-msvc": {
-			"url": "https://github.com/rbxts-rs/rbxts-rs/releases/download/v0.1.1/rbxts-rs-0.1.1-windows-x64.zip",
-			"sha256": "51c954eba7a2db2e7d570ab7d73da5adae0595a47b36c7f14e67beee5addce55"
+			"url": "https://github.com/rbxts-rs/rbxts-rs/releases/download/v0.1.2/rbxts-rs-0.1.2-windows-x64.zip",
+			"sha256": "1cc0c8c802ec1344d2a87f49ad41d060235d525f6af272cfb40b0cafaa9b941f"
 		}
 	}
 }

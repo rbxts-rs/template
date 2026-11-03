@@ -585,8 +585,8 @@ dependencies = [
 
 [[package]]
 name = "rbxts_cli"
-version = "0.1.1"
-source = "git+https://github.com/rbxts-rs/rbxts-rs?tag=v0.1.1#306c3e0c4bca6286e945be80268a86965f924206"
+version = "0.1.2"
+source = "git+https://github.com/rbxts-rs/rbxts-rs?tag=v0.1.2#7b79bb57e575e0cf84bf5a3acef7588dc37f70b4"
 dependencies = [
  "chrono",
  "memory-stats",
@@ -605,13 +605,13 @@ dependencies = [
 
 [[package]]
 name = "rbxts_luau"
-version = "0.1.1"
-source = "git+https://github.com/rbxts-rs/rbxts-rs?tag=v0.1.1#306c3e0c4bca6286e945be80268a86965f924206"
+version = "0.1.2"
+source = "git+https://github.com/rbxts-rs/rbxts-rs?tag=v0.1.2#7b79bb57e575e0cf84bf5a3acef7588dc37f70b4"
 
 [[package]]
 name = "rbxts_luau_check"
-version = "0.1.1"
-source = "git+https://github.com/rbxts-rs/rbxts-rs?tag=v0.1.1#306c3e0c4bca6286e945be80268a86965f924206"
+version = "0.1.2"
+source = "git+https://github.com/rbxts-rs/rbxts-rs?tag=v0.1.2#7b79bb57e575e0cf84bf5a3acef7588dc37f70b4"
 dependencies = [
  "cc",
  "luau0-src",
@@ -619,8 +619,8 @@ dependencies = [
 
 [[package]]
 name = "rbxts_plugin"
-version = "0.1.1"
-source = "git+https://github.com/rbxts-rs/rbxts-rs?tag=v0.1.1#306c3e0c4bca6286e945be80268a86965f924206"
+version = "0.1.2"
+source = "git+https://github.com/rbxts-rs/rbxts-rs?tag=v0.1.2#7b79bb57e575e0cf84bf5a3acef7588dc37f70b4"
 dependencies = [
  "rbxts_luau",
  "rbxts_project",
@@ -634,8 +634,8 @@ dependencies = [
 
 [[package]]
 name = "rbxts_project"
-version = "0.1.1"
-source = "git+https://github.com/rbxts-rs/rbxts-rs?tag=v0.1.1#306c3e0c4bca6286e945be80268a86965f924206"
+version = "0.1.2"
+source = "git+https://github.com/rbxts-rs/rbxts-rs?tag=v0.1.2#7b79bb57e575e0cf84bf5a3acef7588dc37f70b4"
 dependencies = [
  "serde_json",
  "tsrs_ast",
@@ -651,8 +651,8 @@ dependencies = [
 
 [[package]]
 name = "rbxts_transform"
-version = "0.1.1"
-source = "git+https://github.com/rbxts-rs/rbxts-rs?tag=v0.1.1#306c3e0c4bca6286e945be80268a86965f924206"
+version = "0.1.2"
+source = "git+https://github.com/rbxts-rs/rbxts-rs?tag=v0.1.2#7b79bb57e575e0cf84bf5a3acef7588dc37f70b4"
 dependencies = [
  "rbxts_luau",
  "rbxts_luau_check",
