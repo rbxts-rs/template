@@ -36,7 +36,7 @@ passes the exit code through and forwards Ctrl+C and SIGTERM to it, waiting for 
    unzips it into `bin/<target triple>/` and stamps it. It prints one line:
 
    ```text
-   rbxtsc.mjs: downloaded rbxtsc 0.1.2 (x86_64-pc-windows-msvc) from https://github.com/rbxts-rs/rbxts-rs/releases/download/v0.1.2/rbxts-rs-0.1.2-windows-x64.zip, sha256 <sha256>
+   rbxtsc.mjs: downloaded rbxtsc 0.1.3 (x86_64-pc-windows-msvc) from https://github.com/rbxts-rs/rbxts-rs/releases/download/v0.1.3/rbxts-rs-0.1.3-windows-x64.zip, sha256 <sha256>
    ```
 
 2. **Build.** Otherwise the binary has to be built with Rust: the config changed (a plugin added, a version moved),
@@ -108,10 +108,10 @@ Versions are exact everywhere: `rbxts_cli` and each plugin by git tag (or rev), 
 ```json
 {
 	"bin": "rbxtsc",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"config": "<config hash>",
 	"binaries": {
-		"x86_64-pc-windows-msvc": { "url": "https://github.com/…/rbxts-rs-0.1.2-windows-x64.zip", "sha256": "<sha256 of the zip>" }
+		"x86_64-pc-windows-msvc": { "url": "https://github.com/…/rbxts-rs-0.1.3-windows-x64.zip", "sha256": "<sha256 of the zip>" }
 	}
 }
 ```

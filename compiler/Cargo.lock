@@ -391,9 +391,9 @@ checksum = "65cd87c9a6d60536580b316ad985726104730a5151c99845f2490428ef91240a"
 
 [[package]]
 name = "libmimalloc-sys2"
-version = "0.1.64"
+version = "0.1.65"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "07d0f8a90720962736f8a5965b28ba9b9f7a790073bc637b6e965cc14111dfd7"
+checksum = "6c68ecbf07017a81a170a98fd1486d340dd304bc1099d2ca9aceff310fc42e9d"
 dependencies = [
  "cc",
  "cmake",
@@ -445,9 +445,9 @@ dependencies = [
 
 [[package]]
 name = "mimalloc-safe"
-version = "0.1.68"
+version = "0.1.69"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4193bb3155866f6c4bd60586ae65e6ae807d0bfe2f811ce8a469f1aa774fb121"
+checksum = "91a05b5362ba7c45b5a2359693236833e97fd4378ee448effb663462941f9500"
 dependencies = [
  "libmimalloc-sys2",
 ]
@@ -585,8 +585,8 @@ dependencies = [
 
 [[package]]
 name = "rbxts_cli"
-version = "0.1.2"
-source = "git+https://github.com/rbxts-rs/rbxts-rs?tag=v0.1.2#7b79bb57e575e0cf84bf5a3acef7588dc37f70b4"
+version = "0.1.3"
+source = "git+https://github.com/rbxts-rs/rbxts-rs?tag=v0.1.3#d975bd71f3fcfd821d3a8ea56e878cb9746c554a"
 dependencies = [
  "chrono",
  "memory-stats",
@@ -605,13 +605,13 @@ dependencies = [
 
 [[package]]
 name = "rbxts_luau"
-version = "0.1.2"
-source = "git+https://github.com/rbxts-rs/rbxts-rs?tag=v0.1.2#7b79bb57e575e0cf84bf5a3acef7588dc37f70b4"
+version = "0.1.3"
+source = "git+https://github.com/rbxts-rs/rbxts-rs?tag=v0.1.3#d975bd71f3fcfd821d3a8ea56e878cb9746c554a"
 
 [[package]]
 name = "rbxts_luau_check"
-version = "0.1.2"
-source = "git+https://github.com/rbxts-rs/rbxts-rs?tag=v0.1.2#7b79bb57e575e0cf84bf5a3acef7588dc37f70b4"
+version = "0.1.3"
+source = "git+https://github.com/rbxts-rs/rbxts-rs?tag=v0.1.3#d975bd71f3fcfd821d3a8ea56e878cb9746c554a"
 dependencies = [
  "cc",
  "luau0-src",
@@ -619,8 +619,8 @@ dependencies = [
 
 [[package]]
 name = "rbxts_plugin"
-version = "0.1.2"
-source = "git+https://github.com/rbxts-rs/rbxts-rs?tag=v0.1.2#7b79bb57e575e0cf84bf5a3acef7588dc37f70b4"
+version = "0.1.3"
+source = "git+https://github.com/rbxts-rs/rbxts-rs?tag=v0.1.3#d975bd71f3fcfd821d3a8ea56e878cb9746c554a"
 dependencies = [
  "rbxts_luau",
  "rbxts_project",
@@ -634,8 +634,8 @@ dependencies = [
 
 [[package]]
 name = "rbxts_project"
-version = "0.1.2"
-source = "git+https://github.com/rbxts-rs/rbxts-rs?tag=v0.1.2#7b79bb57e575e0cf84bf5a3acef7588dc37f70b4"
+version = "0.1.3"
+source = "git+https://github.com/rbxts-rs/rbxts-rs?tag=v0.1.3#d975bd71f3fcfd821d3a8ea56e878cb9746c554a"
 dependencies = [
  "serde_json",
  "tsrs_ast",
@@ -651,8 +651,8 @@ dependencies = [
 
 [[package]]
 name = "rbxts_transform"
-version = "0.1.2"
-source = "git+https://github.com/rbxts-rs/rbxts-rs?tag=v0.1.2#7b79bb57e575e0cf84bf5a3acef7588dc37f70b4"
+version = "0.1.3"
+source = "git+https://github.com/rbxts-rs/rbxts-rs?tag=v0.1.3#d975bd71f3fcfd821d3a8ea56e878cb9746c554a"
 dependencies = [
  "rbxts_luau",
  "rbxts_luau_check",
@@ -716,9 +716,9 @@ checksum = "6b1e7f9a428571be2dc5bc0505c13fb6bf936822b894ec87abf8a08a4e51742d"
 
 [[package]]
 name = "rustix"
-version = "1.1.5"
+version = "1.1.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "891efababe418670775f199f0d233d84843c227a0949a883ce15b37c78d6629d"
+checksum = "e5e76742e5294153d4dde1207dbec5bdd81eef6fabdc0d2118babadabfd858aa"
 dependencies = [
  "bitflags",
  "errno",
@@ -812,9 +812,9 @@ checksum = "9b0e903ee191d8f7a8fbf0d712c3a1699d19e04ceba5ad1eb673053c7d938a09"
 
 [[package]]
 name = "smallvec"
-version = "1.16.3"
+version = "1.16.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5b3dc8af474f516a851ff4bd12db780f948b9250ad37211e4eec0bccea54e01b"
+checksum = "d0d5d4b1981b8bbbb7aed204cae5726d683d5d6ac7e74ec54122ea28f315e7c8"
 
 [[package]]
 name = "stable_deref_trait"
@@ -867,8 +867,8 @@ dependencies = [
 
 [[package]]
 name = "tsrs_ast"
-version = "0.20.1"
-source = "git+https://github.com/rbxts-rs/tsrs?rev=7da04ddd09af482a35f0857d433855e2bd2b8a38#7da04ddd09af482a35f0857d433855e2bd2b8a38"
+version = "0.23.0"
+source = "git+https://github.com/rbxts-rs/tsrs?rev=c136955df608d167d1b4139e1cb0a8b142b2c82d#c136955df608d167d1b4139e1cb0a8b142b2c82d"
 dependencies = [
  "bitflags",
  "hashbrown",
@@ -881,8 +881,8 @@ dependencies = [
 
 [[package]]
 name = "tsrs_astnav"
-version = "0.20.1"
-source = "git+https://github.com/rbxts-rs/tsrs?rev=7da04ddd09af482a35f0857d433855e2bd2b8a38#7da04ddd09af482a35f0857d433855e2bd2b8a38"
+version = "0.23.0"
+source = "git+https://github.com/rbxts-rs/tsrs?rev=c136955df608d167d1b4139e1cb0a8b142b2c82d#c136955df608d167d1b4139e1cb0a8b142b2c82d"
 dependencies = [
  "tsrs_ast",
  "tsrs_core",
@@ -891,8 +891,8 @@ dependencies = [
 
 [[package]]
 name = "tsrs_binder"
-version = "0.20.1"
-source = "git+https://github.com/rbxts-rs/tsrs?rev=7da04ddd09af482a35f0857d433855e2bd2b8a38#7da04ddd09af482a35f0857d433855e2bd2b8a38"
+version = "0.23.0"
+source = "git+https://github.com/rbxts-rs/tsrs?rev=c136955df608d167d1b4139e1cb0a8b142b2c82d#c136955df608d167d1b4139e1cb0a8b142b2c82d"
 dependencies = [
  "bitflags",
  "rustc-hash",
@@ -904,8 +904,8 @@ dependencies = [
 
 [[package]]
 name = "tsrs_checker"
-version = "0.20.1"
-source = "git+https://github.com/rbxts-rs/tsrs?rev=7da04ddd09af482a35f0857d433855e2bd2b8a38#7da04ddd09af482a35f0857d433855e2bd2b8a38"
+version = "0.23.0"
+source = "git+https://github.com/rbxts-rs/tsrs?rev=c136955df608d167d1b4139e1cb0a8b142b2c82d#c136955df608d167d1b4139e1cb0a8b142b2c82d"
 dependencies = [
  "bitflags",
  "hashbrown",
@@ -929,8 +929,8 @@ dependencies = [
 
 [[package]]
 name = "tsrs_compiler"
-version = "0.20.1"
-source = "git+https://github.com/rbxts-rs/tsrs?rev=7da04ddd09af482a35f0857d433855e2bd2b8a38#7da04ddd09af482a35f0857d433855e2bd2b8a38"
+version = "0.23.0"
+source = "git+https://github.com/rbxts-rs/tsrs?rev=c136955df608d167d1b4139e1cb0a8b142b2c82d#c136955df608d167d1b4139e1cb0a8b142b2c82d"
 dependencies = [
  "rayon",
  "rustc-hash",
@@ -955,8 +955,8 @@ dependencies = [
 
 [[package]]
 name = "tsrs_contentmapper"
-version = "0.20.1"
-source = "git+https://github.com/rbxts-rs/tsrs?rev=7da04ddd09af482a35f0857d433855e2bd2b8a38#7da04ddd09af482a35f0857d433855e2bd2b8a38"
+version = "0.23.0"
+source = "git+https://github.com/rbxts-rs/tsrs?rev=c136955df608d167d1b4139e1cb0a8b142b2c82d#c136955df608d167d1b4139e1cb0a8b142b2c82d"
 dependencies = [
  "rustc-hash",
  "tsrs_ast",
@@ -971,8 +971,8 @@ dependencies = [
 
 [[package]]
 name = "tsrs_core"
-version = "0.20.1"
-source = "git+https://github.com/rbxts-rs/tsrs?rev=7da04ddd09af482a35f0857d433855e2bd2b8a38#7da04ddd09af482a35f0857d433855e2bd2b8a38"
+version = "0.23.0"
+source = "git+https://github.com/rbxts-rs/tsrs?rev=c136955df608d167d1b4139e1cb0a8b142b2c82d#c136955df608d167d1b4139e1cb0a8b142b2c82d"
 dependencies = [
  "dragonbox_ecma",
  "hashbrown",
@@ -989,8 +989,8 @@ dependencies = [
 
 [[package]]
 name = "tsrs_declarations"
-version = "0.20.1"
-source = "git+https://github.com/rbxts-rs/tsrs?rev=7da04ddd09af482a35f0857d433855e2bd2b8a38#7da04ddd09af482a35f0857d433855e2bd2b8a38"
+version = "0.23.0"
+source = "git+https://github.com/rbxts-rs/tsrs?rev=c136955df608d167d1b4139e1cb0a8b142b2c82d#c136955df608d167d1b4139e1cb0a8b142b2c82d"
 dependencies = [
  "rustc-hash",
  "tsrs_ast",
@@ -1006,16 +1006,16 @@ dependencies = [
 
 [[package]]
 name = "tsrs_diagnostics"
-version = "0.20.1"
-source = "git+https://github.com/rbxts-rs/tsrs?rev=7da04ddd09af482a35f0857d433855e2bd2b8a38#7da04ddd09af482a35f0857d433855e2bd2b8a38"
+version = "0.23.0"
+source = "git+https://github.com/rbxts-rs/tsrs?rev=c136955df608d167d1b4139e1cb0a8b142b2c82d#c136955df608d167d1b4139e1cb0a8b142b2c82d"
 dependencies = [
  "rustc-hash",
 ]
 
 [[package]]
 name = "tsrs_ipc"
-version = "0.20.1"
-source = "git+https://github.com/rbxts-rs/tsrs?rev=7da04ddd09af482a35f0857d433855e2bd2b8a38#7da04ddd09af482a35f0857d433855e2bd2b8a38"
+version = "0.23.0"
+source = "git+https://github.com/rbxts-rs/tsrs?rev=c136955df608d167d1b4139e1cb0a8b142b2c82d#c136955df608d167d1b4139e1cb0a8b142b2c82d"
 dependencies = [
  "rustc-hash",
  "tsrs_core",
@@ -1023,8 +1023,8 @@ dependencies = [
 
 [[package]]
 name = "tsrs_module"
-version = "0.20.1"
-source = "git+https://github.com/rbxts-rs/tsrs?rev=7da04ddd09af482a35f0857d433855e2bd2b8a38#7da04ddd09af482a35f0857d433855e2bd2b8a38"
+version = "0.23.0"
+source = "git+https://github.com/rbxts-rs/tsrs?rev=c136955df608d167d1b4139e1cb0a8b142b2c82d#c136955df608d167d1b4139e1cb0a8b142b2c82d"
 dependencies = [
  "bitflags",
  "hashbrown",
@@ -1037,8 +1037,8 @@ dependencies = [
 
 [[package]]
 name = "tsrs_modulespecifiers"
-version = "0.20.1"
-source = "git+https://github.com/rbxts-rs/tsrs?rev=7da04ddd09af482a35f0857d433855e2bd2b8a38#7da04ddd09af482a35f0857d433855e2bd2b8a38"
+version = "0.23.0"
+source = "git+https://github.com/rbxts-rs/tsrs?rev=c136955df608d167d1b4139e1cb0a8b142b2c82d#c136955df608d167d1b4139e1cb0a8b142b2c82d"
 dependencies = [
  "regex",
  "rustc-hash",
@@ -1050,8 +1050,8 @@ dependencies = [
 
 [[package]]
 name = "tsrs_parser"
-version = "0.20.1"
-source = "git+https://github.com/rbxts-rs/tsrs?rev=7da04ddd09af482a35f0857d433855e2bd2b8a38#7da04ddd09af482a35f0857d433855e2bd2b8a38"
+version = "0.23.0"
+source = "git+https://github.com/rbxts-rs/tsrs?rev=c136955df608d167d1b4139e1cb0a8b142b2c82d#c136955df608d167d1b4139e1cb0a8b142b2c82d"
 dependencies = [
  "bitflags",
  "rustc-hash",
@@ -1063,8 +1063,8 @@ dependencies = [
 
 [[package]]
 name = "tsrs_printer"
-version = "0.20.1"
-source = "git+https://github.com/rbxts-rs/tsrs?rev=7da04ddd09af482a35f0857d433855e2bd2b8a38#7da04ddd09af482a35f0857d433855e2bd2b8a38"
+version = "0.23.0"
+source = "git+https://github.com/rbxts-rs/tsrs?rev=c136955df608d167d1b4139e1cb0a8b142b2c82d#c136955df608d167d1b4139e1cb0a8b142b2c82d"
 dependencies = [
  "bitflags",
  "rustc-hash",
@@ -1076,8 +1076,8 @@ dependencies = [
 
 [[package]]
 name = "tsrs_pseudochecker"
-version = "0.20.1"
-source = "git+https://github.com/rbxts-rs/tsrs?rev=7da04ddd09af482a35f0857d433855e2bd2b8a38#7da04ddd09af482a35f0857d433855e2bd2b8a38"
+version = "0.23.0"
+source = "git+https://github.com/rbxts-rs/tsrs?rev=c136955df608d167d1b4139e1cb0a8b142b2c82d#c136955df608d167d1b4139e1cb0a8b142b2c82d"
 dependencies = [
  "tsrs_ast",
  "tsrs_core",
@@ -1085,8 +1085,8 @@ dependencies = [
 
 [[package]]
 name = "tsrs_scanner"
-version = "0.20.1"
-source = "git+https://github.com/rbxts-rs/tsrs?rev=7da04ddd09af482a35f0857d433855e2bd2b8a38#7da04ddd09af482a35f0857d433855e2bd2b8a38"
+version = "0.23.0"
+source = "git+https://github.com/rbxts-rs/tsrs?rev=c136955df608d167d1b4139e1cb0a8b142b2c82d#c136955df608d167d1b4139e1cb0a8b142b2c82d"
 dependencies = [
  "bitflags",
  "memchr",
@@ -1098,8 +1098,8 @@ dependencies = [
 
 [[package]]
 name = "tsrs_sourcemap"
-version = "0.20.1"
-source = "git+https://github.com/rbxts-rs/tsrs?rev=7da04ddd09af482a35f0857d433855e2bd2b8a38#7da04ddd09af482a35f0857d433855e2bd2b8a38"
+version = "0.23.0"
+source = "git+https://github.com/rbxts-rs/tsrs?rev=c136955df608d167d1b4139e1cb0a8b142b2c82d#c136955df608d167d1b4139e1cb0a8b142b2c82d"
 dependencies = [
  "rustc-hash",
  "tsrs_ast",
@@ -1109,8 +1109,8 @@ dependencies = [
 
 [[package]]
 name = "tsrs_spanmap"
-version = "0.20.1"
-source = "git+https://github.com/rbxts-rs/tsrs?rev=7da04ddd09af482a35f0857d433855e2bd2b8a38#7da04ddd09af482a35f0857d433855e2bd2b8a38"
+version = "0.23.0"
+source = "git+https://github.com/rbxts-rs/tsrs?rev=c136955df608d167d1b4139e1cb0a8b142b2c82d#c136955df608d167d1b4139e1cb0a8b142b2c82d"
 dependencies = [
  "bitflags",
  "tsrs_core",
@@ -1118,8 +1118,8 @@ dependencies = [
 
 [[package]]
 name = "tsrs_transformers"
-version = "0.20.1"
-source = "git+https://github.com/rbxts-rs/tsrs?rev=7da04ddd09af482a35f0857d433855e2bd2b8a38#7da04ddd09af482a35f0857d433855e2bd2b8a38"
+version = "0.23.0"
+source = "git+https://github.com/rbxts-rs/tsrs?rev=c136955df608d167d1b4139e1cb0a8b142b2c82d#c136955df608d167d1b4139e1cb0a8b142b2c82d"
 dependencies = [
  "bitflags",
  "rustc-hash",
@@ -1134,8 +1134,8 @@ dependencies = [
 
 [[package]]
 name = "tsrs_tsoptions"
-version = "0.20.1"
-source = "git+https://github.com/rbxts-rs/tsrs?rev=7da04ddd09af482a35f0857d433855e2bd2b8a38#7da04ddd09af482a35f0857d433855e2bd2b8a38"
+version = "0.23.0"
+source = "git+https://github.com/rbxts-rs/tsrs?rev=c136955df608d167d1b4139e1cb0a8b142b2c82d#c136955df608d167d1b4139e1cb0a8b142b2c82d"
 dependencies = [
  "rustc-hash",
  "tsrs_ast",
@@ -1150,8 +1150,8 @@ dependencies = [
 
 [[package]]
 name = "tsrs_vfs"
-version = "0.20.1"
-source = "git+https://github.com/rbxts-rs/tsrs?rev=7da04ddd09af482a35f0857d433855e2bd2b8a38#7da04ddd09af482a35f0857d433855e2bd2b8a38"
+version = "0.23.0"
+source = "git+https://github.com/rbxts-rs/tsrs?rev=c136955df608d167d1b4139e1cb0a8b142b2c82d#c136955df608d167d1b4139e1cb0a8b142b2c82d"
 dependencies = [
  "bitflags",
  "rayon",

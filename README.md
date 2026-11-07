@@ -47,7 +47,7 @@ plugins and upgrading.
 
 | `compiler/` (rbxts-rs) | roblox-ts | TypeScript | `@rbxts/compiler-types` |
 | --- | --- | --- | --- |
-| 0.1.2 | 3.0.0 | 7.1 | 3.0.0-types.1-ts7.0 ([release](https://github.com/rbxts-rs/compiler-types/releases/tag/v3.0.0-types.1-ts7.0)) |
+| 0.1.3 | 3.0.0 | 7.1 | 3.0.0-types.1-ts7.0 ([release](https://github.com/rbxts-rs/compiler-types/releases/tag/v3.0.0-types.1-ts7.0)) |
 
 Every version here is exact. To upgrade the compiler, take `templates/compiler/` from the rbxts-rs release you want
 (its `Cargo.toml`, `Cargo.lock` and `preset.json` change together) and keep your plugins in `src/main.rs`.
